@@ -1,0 +1,31 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Scale : MonoBehaviour
+{
+    public float scalebigboy = 0.1f;
+    public GameObject Cube;
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+   
+    
+     
+         {
+
+
+
+            transform.localScale = new Vector3(transform.localScale.x + 0.1f * scalebigboy,
+            transform.localScale.x + 0.1f * scalebigboy, 0);
+
+  
+    
+      
+
+            }
+}
